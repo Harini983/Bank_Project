@@ -1,0 +1,60 @@
+{
+  "posts": [
+    {
+      "username": "abc",
+      "mail": "abc@gmail.com",
+      "password": 123,
+      "id": "2398"
+    },
+    {
+      "id": "86f7",
+      "username": "rini",
+      "mail": "harinir@gamil.com",
+      "password": "1234"
+    },
+    {
+      "id": "a983",
+      "username": "rini",
+      "mail": "gbc@gmail.com",
+      "password": "1245"
+    },
+    {
+      "id": "90db",
+      "username": "John Doe",
+      "mail": "john@example.com",
+      "password": "123"
+    },
+    {
+      "id": "7f2e",
+      "username": "Jane Smith",
+      "mail": "jane@example.com",
+      "password": "1234"
+    },
+    {
+      "id": "8c59",
+      "username": "rini",
+      "mail": "harini@gmail.com",
+      "password": "123"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "balance": 7716
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "balance": 11634
+    },
+    {
+      "id": "6cb7",
+      "name": "HARINI R",
+      "email": "harinir0913@gmail.com",
+      "balance": 12345
+    }
+  ]
+}

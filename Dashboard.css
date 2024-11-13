@@ -1,0 +1,258 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo h2 {
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard Layout */
+.dashboard {
+    display: flex;
+    justify-content: center; /* Center the main content */
+    padding: 5rem 2rem 2rem; /* Add padding to the bottom for footer */
+    margin-top: 80px; /* Adjust for fixed header */
+}
+
+/* Main Content */
+.main-content {
+    width: 150%;
+    padding: 2rem;
+    margin: 0 auto; /* Center content horizontally */
+    text-align: center; /* Align text to the center */
+}
+
+/* Section Styling */
+section {
+    margin: 2rem 0; /* Space between sections */
+    padding: 0.5rem;
+    background-color: #f4f4f4; /* Light background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center text and content within sections */
+}
+
+/* Section Image Styling */
+.section-image {
+    section img {
+        max-width: 100%; /* Ensures images scale down with the screen size */
+        height: 50%; /* Maintains the aspect ratio */
+        border-radius: 8px; /* Consistent styling with rounded corners */
+    }
+}
+
+/* Text content within sections */
+.text-content {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.6; /* Improves readability */
+}
+
+/* Ensure all sections are properly spaced and aligned */
+.section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align content to center */
+}
+
+
+/* Features Section */
+.features-section {
+    padding: 1rem 0;
+    background-color: #ecf0f1; /* Light background for the features section */
+}
+
+.features-section h2 {
+    margin-bottom: 1rem; /* Space below the section heading */
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.feature {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 1rem; /* Space around features */
+    flex-basis: 30%; /* Responsive width */
+    text-align: center; /* Center text within features */
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem; /* Reduced padding for a smaller footer */
+    text-align: left;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0.5rem; /* Added padding for spacing */
+}
+
+.footer-column {
+    width: 20%;
+}
+
+.footer-column h3 {
+    margin: 0; /* Remove margin for headings */
+    font-size: 1.1rem; /* Adjust font size */
+}
+
+.footer-column ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-column ul li {
+    margin: 0.5rem 0;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 1rem; /* Adjust margin for spacing */
+}
+
+/* Responsive Design */
+@media (max-width: 50px) {
+    .dashboard {
+        flex-direction:full; /* Stack items vertically on small screens */
+        padding: 0.5rem; /* Reduce padding */
+    }
+
+    .main-content {
+        width: 100%; /* Full width for main content */
+    }
+
+    .features-container {
+        flex-direction: column; /* Stack features vertically */
+        align-items: center; /* Center align features */
+    }
+
+    .footer-column {
+        width: 100%; /* Full width for footer columns on small screens */
+        margin-bottom: 1rem; /* Space below footer columns */
+    }
+    /* Login Button Container */
+.login-container {
+    background-color: #2590d8; /* Blue background color */
+    padding: 1rem;
+    border-radius: 8px; /* Rounded corners */
+    margin: 2rem 0; /* Space above and below */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center the button */
+}
+
+/* Login Button */
+.login-button {
+    background-color: rgb(213, 236, 45); /* White background for the button */
+    color: #3498db; /* Text color matching the container */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for the button */
+    padding: 0.75rem 1.5rem; /* Padding for the button */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+/* Button Hover Effect */
+.login-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    color: rgb(165, 231, 49); /* Change text color on hover */
+}
+
+}
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    color: rgb(33, 25, 25);
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #565454;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 8px;
+  }
+  
+  .dropdown-content a {
+    color: rgb(247, 244, 244);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #2980b9;
+  }
+  

@@ -1,0 +1,76 @@
+/* General Page Background */
+body {
+    background-color: #f0f4f8; /* Light greyish-blue for the entire background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Table Styling */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ffffff; /* White background for the table */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adding a soft shadow for better visibility */
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd; /* Light border for cleaner look */
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    background-color: #fafafa; /* Light background for table cells */
+  }
+  
+  /* Table Header Styling */
+  th {
+    background-color: #4CAF50; /* Dark green header background */
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px 15px;
+    background-color: #e74c3c; /* Brighter red for buttons */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Rounded button edges */
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  /* Input Styling */
+  input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Headings */
+  h2, h3 {
+    margin-bottom: 15px;
+    color: #0a0909; /* Dark grey for headers */
+    font-weight: 600;
+  }
+  
+  /* Container for the Form and Table */
+  .container {
+    background-color: #ffffff; /* White container background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for the container */
+    margin-top: 20px;
+  }
+  
